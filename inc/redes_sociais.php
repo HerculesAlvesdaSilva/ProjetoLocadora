@@ -1,0 +1,1 @@
+<img src="http://localhost/ProjetoLocadora/imagens/bannercima.jpg" />

@@ -25,12 +25,15 @@ endif;
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="./css/style.css" />
         <style>
+            body{
+                background-image: url(./imagens/plano\ de\ fundo.jpg);
+            }
         </style>
     </head>
     <body>
         <div id="login" class="box">
 
-            <div id="logo"><img src="imagens/logo.png" /></div>
+            <div id="logo"><img src="imagens/" /></div>
 
             <div id="form_login">
                 <form action="" method="post">
@@ -45,7 +48,7 @@ endif;
                     <input type="submit" name="ok" value="logar" id="botao_logar" />
 
                 </form>
-                <?php echo isset($erro) ? '--><div id="mensagem"><!--' . $erro . '</div>' : ''; ?>
+                <?php echo isset($erro) ? '<div id="mensagem">' . $erro . '</div>' : ''; ?>
             </div>
         </div>
     </body>

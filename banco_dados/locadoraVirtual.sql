@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 18-Jun-2020 às 21:14
+-- Tempo de geração: 18-Jun-2020 às 21:21
 -- Versão do servidor: 10.4.11-MariaDB
 -- versão do PHP: 7.4.3
 
@@ -94,7 +94,7 @@ INSERT INTO `categorias` (`categorias_id`, `categorias_nome`, `categorias_slug`,
 (9, 'Aventura', 'aventura', 'http://localhost/ProjetoLocadora/categoria/aventura', 'habilitado'),
 (10, 'Terror', 'terror', 'http://localhost/ProjetoLocadora/categoria/terror', 'habilitado'),
 (12, 'Drama', 'drama', 'http://localhost/ProjetoLocadora/categoria/drama', 'habilitado'),
-(13, 'ComÃ©dia', 'comedia', 'http://localhost/ProjetoLocadora/categoria/comedia', 'habilitado'),
+(13, 'Comédia', 'comedia', 'http://localhost/ProjetoLocadora/categoria/comedia', 'habilitado'),
 (14, 'Suspense', 'suspense', 'http://localhost/ProjetoLocadora/categoria/suspense', 'habilitado'),
 (15, 'Romance', 'romance', 'http://localhost/ProjetoLocadora/categoria/romance', 'habilitado'),
 (16, 'Policial', 'policial', 'http://localhost/ProjetoLocadora/categoria/policial', 'habilitado'),

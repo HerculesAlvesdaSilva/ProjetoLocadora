@@ -1,9 +1,78 @@
-*{margin:0;padding:0;}
-#login{width:220px;margin:0 auto;font-family: "Arial";margin-top:10px;}
-#form_login{width:208px;background-color: #ccc;padding:10px;}
-#login{}
-#login label{display:block;}
-#login input{margin-bottom:5px; }
-#login .input_login{width:200px;height:20px;}
-#login #botao_logar{background-color: #333;color: #FFF;width:205px;padding:3px;border: solid 1px #333;}
-#mensagem{width:208px;background-color: #FFF;color: #333;text-align: center;}
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Roboto:wght@700&family=Sofia&display=swap');
+:root{
+    --gugi: "Gugi", cursive;
+}
+
+* {   padding:0;   margin:0; } 
+
+body{
+    background-image: url(./plano\ de\ fundo.jpg);
+    background-size: cover;
+    background-repeat: none;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-family: var(--gugi);
+}
+.box{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 120px;
+    box-shadow: -1px -1px 1px 1px rgb(184, 183, 183);
+    font-family: var(--gugi);
+    
+}
+
+.box input[type = "text"],.box input[type = "password"],.box input[type= "email"]{
+    border: 0;
+    background: rgba(255, 255, 255, 0.945);
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgba(88, 88, 88, 0.39);
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: rgb(15, 46, 20);
+    border-radius: 24px;
+    transition: 0.25s;
+    font-family: var(--gugi);
+    background-color: rgba(72, 228, 98, 0.568);
+}
+
+
+.box input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgb(181, 182, 181);
+    padding: 14px 40px;
+    width: 200px;
+    outline: none;
+    color: rgb(199, 197, 197);
+    border-radius: 24px;
+    transition: 0.25s;  
+    cursor: pointer;
+    font-family: var(--gugi);
+    background-color: rgb(15, 46, 20);
+}
+
+input[type = "submit"]:hover{
+    background-color: rgb(9, 26, 11);
+    border: 2px solid rgb(5, 5, 5);
+    color: rgb(255, 255, 255);
+}
+
+input[type = "text"]:focus,.box input[type = "password"]:focus{
+    border: 2px solid rgba(34, 105, 46, 0.589);
+    width: 280px;
+    color: rgb(0, 3, 1);
+}

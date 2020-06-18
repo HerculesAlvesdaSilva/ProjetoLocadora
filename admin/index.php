@@ -23,14 +23,14 @@ endif;
     <head>
         <title>Login</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" href="login.css" />
+        <link rel="stylesheet" href="css/style.css"/>
         <style>
         </style>
     </head>
     <body>
         <div id="login" class="box">
 
-            <div id="logo"><img src="imagens/logo.png" /></div>
+            <div id="logo"><img src="imagens/plano de fundo.jpg" /></div>
 
             <div id="form_login">
                 <form action="" method="post">
@@ -45,7 +45,7 @@ endif;
                     <input type="submit" name="ok" value="logar" id="botao_logar" />
 
                 </form>
-                <!--<?php echo isset($erro) ? '--><div id="mensagem"><!--' . $erro . '</div>' : ''; ?>-->
+                <?php echo isset($erro) ? '--><div id="mensagem"><!--' . $erro . '</div>' : ''; ?>
             </div>
         </div>
     </body>

@@ -32,9 +32,9 @@ endif;
         <link rel="stylesheet" media="screen" type="text/css" href="http://localhost/ProjetoLocadora/css/style.css" />
         <link rel="stylesheet" media="screen" type="text/css" href="http://localhost/ProjetoLocadora/css/estilo.css" />
         <link rel="stylesheet" media="screen" type="text/css" href="http://localhost/ProjetoLocadora/css/gallery_view.css" />
-        <link rel="stylesheet" media="screen" type="text/css" href="http://http://localhost/ProjetoLocadora/css/liquidcarousel.css" />
-        <link rel="stylesheet" media="screen" type="text/css" href="http://http://localhost/ProjetoLocadora/css/qtip.css" />
-        <link rel="stylesheet" media="screen" type="text/css" href="http://http://localhost/ProjetoLocadora/css/pagination_jquery.css" />
+        <link rel="stylesheet" media="screen" type="text/css" href="http://localhost/ProjetoLocadora/css/liquidcarousel.css" />
+        <link rel="stylesheet" media="screen" type="text/css" href="http://localhost/ProjetoLocadora/css/qtip.css" />
+        <link rel="stylesheet" media="screen" type="text/css" href="http://localhost/ProjetoLocadora/css/pagination_jquery.css" />
         <link href='http://fonts.googleapis.com/css?family=Cuprum' rel='stylesheet' type='text/css' />  
         <script type="text/javascript" src="http://localhost/ProjetoLocadora.js"></script>
 
@@ -42,7 +42,7 @@ endif;
     <body>                          
         <div id="topo">
             <div class="logo">
-                <a href="http://http://localhost/ProjetoLocadora"><img src="http://localhost/ProjetoLocadora/imagens/logo.png" width="215" height="70" alt="Logo" /></a>
+                <a href="http://localhost/ProjetoLocadora"><img src="http://localhost/ProjetoLocadora/imagens/logo.png" width="215" height="70" alt="Logo" /></a>
             </div><!-- logo -->
 
             <div class="menu">
@@ -80,34 +80,34 @@ endif;
         </div><!-- rodape -->
     </body>
     <!--EDITAR COMENTARIO-->
-    <script type="text/javascript" src="http://http://localhost/ProjetoLocadora/js/editar_comentario.js"></script>
+    <script type="text/javascript" src="http://localhost/ProjetoLocadora/js/editar_comentario.js"></script>
 
     <!--SLIDE DE FILMES-->   
-    <script type="text/javascript" src="http://http://localhost/ProjetoLocadora/js/jquery_timer.js"></script>
-    <script type="text/javascript" src="http://http://localhost/ProjetoLocadora/js/jquery_gallery.js"></script>
-    <script type="text/javascript" src="http://http://localhost/ProjetoLocadora/js/galleryInit.js"></script>
+    <script type="text/javascript" src="http://localhost/ProjetoLocadora/js/jquery_timer.js"></script>
+    <script type="text/javascript" src="http://localhost/ProjetoLocadora/js/jquery_gallery.js"></script>
+    <script type="text/javascript" src="http://localhost/ProjetoLocadora/js/galleryInit.js"></script>
 
     <!--SLIDES DE LANCAMENTOS-->
-    <script type="text/javascript" src="http://http://localhost/ProjetoLocadora/js/jquery_lancamentos.js"></script>
-    <script type="text/javascript" src="http://http://localhost/ProjetoLocadora/js/carouselInit.js"></script>
+    <script type="text/javascript" src="http://localhost/ProjetoLocadora/js/jquery_lancamentos.js"></script>
+    <script type="text/javascript" src="http://localhost/ProjetoLocadora/js/carouselInit.js"></script>
 
     <!--QTIP-->
-    <script type="text/javascript" src="http://http://http://localhost/ProjetoLocadora/js/qtip.js"></script>
-    <script type="text/javascript" src="http://http://localhost/ProjetoLocadora/js/qtipInit.js"></script> 
+    <script type="text/javascript" src="http://localhost/ProjetoLocadora/js/qtip.js"></script>
+    <script type="text/javascript" src="http://localhost/ProjetoLocadora/js/qtipInit.js"></script> 
 
     <!--PAGINACAO JQUERY MEUS DADOS-->
-    <script type="text/javascript" src="http://http://localhost/ProjetoLocadora/js/pagination_jquery.js"></script> 
-    <script type="text/javascript" src="http://http://localhost/ProjetoLocadora/js/pagination_jquery_comentarios_minha_conta.js"></script>
-    <script type="text/javascript" src="http://http://localhost/ProjetoLocadora/js/pagination_jquery_locados_mes_minha_conta.js"></script> 
+    <script type="text/javascript" src="http://localhost/ProjetoLocadora/js/pagination_jquery.js"></script> 
+    <script type="text/javascript" src="http://localhost/ProjetoLocadora/js/pagination_jquery_comentarios_minha_conta.js"></script>
+    <script type="text/javascript" src="http://localhost/ProjetoLocadora/js/pagination_jquery_locados_mes_minha_conta.js"></script> 
 
     <!--MASK CADASTRO CLIENTES-->
-    <script type="text/javascript" src="http://http://localhost/ProjetoLocadora/js/mask_plugin.js"></script> 
-    <script type="text/javascript" src="http://http://localhost/ProjetoLocadora/js/mask_clientes.js"></script>
+    <script type="text/javascript" src="http://localhost/ProjetoLocadora/js/mask_plugin.js"></script> 
+    <script type="text/javascript" src="http://localhost/ProjetoLocadora/js/mask_clientes.js"></script>
 
     <!--EDITAR CLIENTE-->
-    <script type="text/javascript" src="http://http://localhost/ProjetoLocadora/js/editar_cliente.js"></script> 
+    <script type="text/javascript" src="http://localhost/ProjetoLocadora/js/editar_cliente.js"></script> 
 
     <!--TIPO ENTREGA-->
-    <script type="text/javascript" src="http://http://localhost/ProjetoLocadora/js/tipo_entrega.js"></script> 
+    <script type="text/javascript" src="http://localhost/ProjetoLocadora/js/tipo_entrega.js"></script> 
 
 </html>

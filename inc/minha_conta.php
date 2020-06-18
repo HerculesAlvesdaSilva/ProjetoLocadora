@@ -9,7 +9,7 @@
 
         <h2>Minha conta - <?php echo $_SESSION['nome_cliente']; ?></h2>
         <div id="opcoes_cliente">
-            <a href="#" onclick="janelaAlterar(<?php echo $idCliente->clientes_id; ?>,'cliente')">Editar</a> - <a href="http://projetofaculdade.epizy.com/modulos/excluir/conta">Encerrar Conta</a>
+            <a href="#" onclick="janelaAlterar(<?php echo $idCliente->clientes_id; ?>,'cliente')">Editar</a> - <a href="http://http://localhost/ProjetoLocadora/modulos/excluir/conta">Encerrar Conta</a>
         </div>
 
         <div id="filme_devolver">
@@ -39,7 +39,7 @@
                                 <td><?php echo $fl->current()->filmes_nome; ?></td>
                                 <td><?php echo date("d/m/Y", strtotime($fl->current()->locados_devolucao)); ?></td>
                                 <td>R$ <?php echo number_format($fl->current()->locados_valor, 2, ",", "."); ?></td>
-                                <td><a href="http://projetofaculdade.epizy.com/relocar/filme/<?php echo $fl->current()->filmes_slug; ?>/locacao/<?php echo $fl->current()->locados_id; ?>">Relocar</a></td>
+                                <td><a href="http://http://localhost/ProjetoLocadora/relocar/filme/<?php echo $fl->current()->filmes_slug; ?>/locacao/<?php echo $fl->current()->locados_id; ?>">Relocar</a></td>
                             </tr>
 
 

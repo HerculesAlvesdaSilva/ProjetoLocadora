@@ -15,7 +15,7 @@
                             ?>
                             <script type="text/javascript">
                                 setTimeout( function() {
-                                    location="http://projetofaculdade.epizy.com"
+                                    location="http://http://localhost/ProjetoLocadora"
                                 }, 5000 );                         
                             </script>
                             <?php
@@ -45,7 +45,7 @@
             ?>       
                <script type="text/javascript">
                        setTimeout( function() {
-                       location="http://projetofaculdade.epizy.com"
+                       location="http://http://localhost/ProjetoLocadora"
                    }, 5000 );                         
             </script>                        
             <?php

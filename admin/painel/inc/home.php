@@ -6,7 +6,7 @@ if (!empty($dadosFilmesLocados)):
     $f = new ArrayIterator($dadosFilmesLocados);
     while ($f->valid()):
         if (deletarLocados($f->current()->locados_id))
-            header("Location: http://projetofaculdade.epizy.com/admin/painel/");
+            header("Location: http://http://localhost/ProjetoLocadora/admin/painel/");
         $f->next();
     endwhile;
 
@@ -33,7 +33,7 @@ if (isset($_GET['relocar'])):
 
         if (relocar($dados))
             locarFilmeCliente($dados);
-        header("Location: http://projetofaculdade.epizy.com/admin/painel/");
+        header("Location: http://http://localhost/ProjetoLocadora/admin/painel/");
 
     endif;
 endif;
@@ -45,7 +45,7 @@ if (isset($_GET['remover'])):
     if ($_GET['remover'] == 'ok'):
         $id = filter_var($_GET['id'], FILTER_SANITIZE_NUMBER_INT);
         deletarLocados($id);
-        header("Location: http://projetofaculdade.epizy.com/admin/painel/");
+        header("Location: http://http://localhost/ProjetoLocadora/admin/painel/");
     endif;
 
 endif;
@@ -60,7 +60,7 @@ if (isset($_GET['devolvido'])):
         $locadosData = $dadosDevolvidos->locados_data;
         ($dadosDevolvidos->locados_status == "Locado") ? $status = "Devolvido" : $status = "Locado";
         alterarStatusLocados($status, $locadosData, $id);
-        header("Location: http://projetofaculdade.epizy.com/admin/painel/");
+        header("Location: http://http://localhost/ProjetoLocadora/admin/painel/");
     endif;
 
 endif;

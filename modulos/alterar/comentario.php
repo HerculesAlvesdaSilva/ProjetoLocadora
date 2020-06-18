@@ -1,5 +1,5 @@
-<link rel="stylesheet" media="screen" type="text/css" href="http://projetofaculdade.epizy.com/css/edit.css" />
-<script type="text/javascript" src="http://projetofaculdade.epizy.com/js/editar_comentario_jquery.js"></script>
+<link rel="stylesheet" media="screen" type="text/css" href="http://http://localhost/ProjetoLocadora/css/edit.css" />
+<script type="text/javascript" src="http://http://localhost/ProjetoLocadora/js/editar_comentario_jquery.js"></script>
 
 <?php
 include_once '../../functions/functions.php';

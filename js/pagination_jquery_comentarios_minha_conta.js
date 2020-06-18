@@ -25,7 +25,7 @@ $(document).ready(function(){
                 for(var i=page_index*items_per_page;i<max_elem;i++)
                 {   
                     newcontent += '<tr class="tabela_filmes_locados">';
-                    newcontent += '<td width="20%"><a href="http://projetofaculdade.epizy.com/detalhes/filme/'+data[i]['filmes_slug']+'">' + data[i]['filmes_nome'] + '</a></td>';
+                    newcontent += '<td width="20%"><a href="http://http://localhost/ProjetoLocadora/detalhes/filme/'+data[i]['filmes_slug']+'">' + data[i]['filmes_nome'] + '</a></td>';
                     newcontent += '<td class="state">' + data[i]['comentarios_texto'] + '</td>';
                     newcontent += '</tr>';
                 }

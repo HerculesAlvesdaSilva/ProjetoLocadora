@@ -3,7 +3,7 @@
 
     <div id="form_cadastro">
 
-        <form action="http://projetofaculdade.epizy.com/modulos/cadastrar/cliente" method="post" enctype="multipart/form-data">
+        <form action="http://http://localhost/ProjetoLocadora/modulos/cadastrar/cliente" method="post" enctype="multipart/form-data">
             <label for="nome">Nome:</label>
             <input type="text" name="nome" class="input" value="<?php echo recuperaDados('nome', $valor = null) ?>" />
 

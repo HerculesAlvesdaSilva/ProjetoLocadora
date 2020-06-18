@@ -44,10 +44,10 @@
                             $totalLocacao += $filmes->filmes_preco;
                             ?>
                             <tr class="tabela_filmes_locados">
-                                <td><img src="http://projetofaculdade.epizy.com/<?php echo $filmes->filmes_foto ?>" width="45" height="35"/></td>
+                                <td><img src="http://http://localhost/ProjetoLocadora/<?php echo $filmes->filmes_foto ?>" width="45" height="35"/></td>
                                 <td><?php echo $filmes->filmes_nome ?></td>
                                 <td> R$ <?php echo number_format($filmes->filmes_preco, 2, ",", "."); ?></td>
-                                <td align="center"><a href="http://projetofaculdade.epizy.com/deletar/filme/<?php echo $filmes->filmes_slug; ?>"><img src="http://projetofaculdade.epizy.com/imagens/delete.png" /></a></td>
+                                <td align="center"><a href="http://http://localhost/ProjetoLocadora/deletar/filme/<?php echo $filmes->filmes_slug; ?>"><img src="http://http://localhost/ProjetoLocadora/imagens/delete.png" /></a></td>
                             </tr>
 
                             <?php
@@ -56,8 +56,8 @@
                         ?>
                         <tr>
                             <td colspan="1" class="total_meus_filmes">Total: R$ <?php echo number_format($totalLocacao, 2, ",", "."); ?></td>
-                            <td colspan="1" class="total_meus_filmes"><a href="http://projetofaculdade.epizy.com/locar_filmes">Locar Filmes</a></td>
-                            <td colspan="2" class="total_meus_filmes"><a href="http://projetofaculdade.epizy.com">Continuar Locando</a></td>
+                            <td colspan="1" class="total_meus_filmes"><a href="http://http://localhost/ProjetoLocadora/locar_filmes">Locar Filmes</a></td>
+                            <td colspan="2" class="total_meus_filmes"><a href="http://http://localhost/ProjetoLocadora">Continuar Locando</a></td>
                         </tr>
 
                     <div class="entrega">

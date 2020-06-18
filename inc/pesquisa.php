@@ -45,18 +45,18 @@
 
                             if (!empty($verificaLocado)):
                                 ?>
-                                <div class="faixa_locado"><img src="http://projetofaculdade.epizy.com/imagens/faixa.png" /></div>
+                                <div class="faixa_locado"><img src="http://http://localhost/ProjetoLocadora/imagens/faixa.png" /></div>
                                 <?php
                             endif;
                             /* VERIFICA SE FILME ESTA LOCADO E COLOCA UMA FAIXA EM CIMA DA FOTO DO FILME */
                             ?>
 
                             <h3><?php echo $c->current()->filmes_nome; ?></h3>
-                            <div class="foto_filme_categoria"><img src="http://projetofaculdade.epizy.com/<?php echo $c->current()->filmes_foto; ?>" /></div>
+                            <div class="foto_filme_categoria"><img src="http://http://localhost/ProjetoLocadora/<?php echo $c->current()->filmes_foto; ?>" /></div>
                             <div class="dados_filme">
                                 <?php echo "Código do filme " . $c->current()->filmes_codigo; ?><br />
                                 <?php echo "R$ " . number_format($c->current()->filmes_preco, 2, ",", "."); ?><br /><br />
-                                <a href="http://projetofaculdade.epizy.com/detalhes/filme/<?php echo $c->current()->filmes_slug; ?>" class="bt_detalhes">Detalhes</a> | 
+                                <a href="http://http://localhost/ProjetoLocadora/detalhes/filme/<?php echo $c->current()->filmes_slug; ?>" class="bt_detalhes">Detalhes</a> | 
 
                                 <?php
                                 if (!empty($verificaLocado)):
@@ -72,7 +72,7 @@
                                         echo 'Filme já escolhido';
                                     else:
                                         ?>
-                                        <a href="http://projetofaculdade.epizy.com/<?php echo $link; ?>" class="locar_filme">Locar Filme</a>
+                                        <a href="http://http://localhost/ProjetoLocadora/<?php echo $link; ?>" class="locar_filme">Locar Filme</a>
                                     <?php
                                     endif;
                                 endif;

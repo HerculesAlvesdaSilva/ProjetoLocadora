@@ -18,7 +18,7 @@
 
                         echo "<div class='sucesso'>Comentário cadastrado, seu comentário estará dispnível assim que for aprovado por nós !</div><br />";
                         ?>
-                        <a href="http://projetofaculdade.epizy.com/detalhes/filme/<?php echo $filme->filmes_slug; ?>">Voltar</a>
+                        <a href="http://http://localhost/ProjetoLocadora/detalhes/filme/<?php echo $filme->filmes_slug; ?>">Voltar</a>
                         <?php
                     else:
                         $erro = 'Erro ao fazer comentário, tente novamente, se o erro persistir, entre em contato conosco pelo e-mail contato@asolucoesweb.com.br';

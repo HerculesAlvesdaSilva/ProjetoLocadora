@@ -29,7 +29,7 @@ $(document).ready(function(){
             data: "locar=ok&filme="+idFilme+"&cliente="+idCliente,
             success: function(data){                        
                 $("#mensagem_filme_locado").append('<div id="msg_filme_locado">Filme locado para '+nomeCliente+'</div>');
-                setTimeout("window.location.href='http://projetofaculdade.epizy.com/admin/painel/?p=filmes'", 2000);
+                setTimeout("window.location.href='http://http://localhost/ProjetoLocadora/admin/painel/?p=filmes'", 2000);
             }
         });   
     });  

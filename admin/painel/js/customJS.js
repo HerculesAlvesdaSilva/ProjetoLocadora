@@ -92,5 +92,5 @@ function deletar(id, pagina){
 }
 
 function refresh(){
-    window.location = "http://projetofaculdade.epizy.com/admin/painel/index.php";
+    window.location = "http://http://localhost/ProjetoLocadora/admin/painel/index.php";
 }

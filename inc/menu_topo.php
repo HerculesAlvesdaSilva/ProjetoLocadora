@@ -1,27 +1,27 @@
 <ul>
-    <li><a href="http://projetofaculdade.epizy.com">Ínicio</a></li>
+    <li><a href="http://http://localhost/ProjetoLocadora">Ínicio</a></li>
     <?php
     $menus = listar("menus","where menus_visivel = 'habilitado'");
     $m = new ArrayIterator($menus);
     while ($m->valid()):
         ?>
-        <li><a href="http://projetofaculdade.epizy.com/<?php echo $m->current()->menus_slug; ?>"><?php echo $m->current()->menus_nome; ?></a></li>
+        <li><a href="http://http://localhost/ProjetoLocadora/<?php echo $m->current()->menus_slug; ?>"><?php echo $m->current()->menus_nome; ?></a></li>
         <?php
         $m->next();
     endwhile;
     ?>
     <li id="pedido_link">
-        <a href="http://projetofaculdade.epizy.com/" rel="/modulos/listar/listar_filmes_locados.php">
+        <a href="http://http://localhost/ProjetoLocadora/" rel="/modulos/listar/listar_filmes_locados.php">
             Ver Pedido - <?php echo isset($_SESSION['locar']) ? "(" . count($_SESSION['locar']) . ") filmes" : '(0) filmes'; ?>
         </a>
     </li>
 </ul>
 
 <!--
-   <li><a href="http://projetofaculdade.epizy.com/lancamentos">Lançamentos</a></li>
-    <li><a href="http://projetofaculdade.epizy.com/noticias">Notícias</a></li>
-    <li><a href="http://projetofaculdade.epizy.com/minha_conta">Minha Conta</a></li>
-    <li><a href="http://projetofaculdade.epizy.com/contato">Contato</a></li>
-    <li><a href="http://projetofaculdade.epizy.com/cadastro">Cadastro</a></li>
-    <li><a href="http://projetofaculdade.epizy.com/meus_filmes">Meus Filmes</a></li>
+   <li><a href="http://http://localhost/ProjetoLocadora/lancamentos">Lançamentos</a></li>
+    <li><a href="http://http://localhost/ProjetoLocadora/noticias">Notícias</a></li>
+    <li><a href="http://http://localhost/ProjetoLocadora/minha_conta">Minha Conta</a></li>
+    <li><a href="http://http://localhost/ProjetoLocadora/contato">Contato</a></li>
+    <li><a href="http://http://localhost/ProjetoLocadora/cadastro">Cadastro</a></li>
+    <li><a href="http://http://localhost/ProjetoLocadora/meus_filmes">Meus Filmes</a></li>
 -->

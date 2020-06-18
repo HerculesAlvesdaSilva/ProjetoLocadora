@@ -1,1 +1,1 @@
-<img src="http://projetofaculdade.epizy.com/imagens/bannercima.jpg" />
+<img src="http://http://localhost/ProjetoLocadora/imagens/bannercima.jpg" />

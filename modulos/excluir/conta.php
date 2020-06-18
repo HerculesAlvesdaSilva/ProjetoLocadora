@@ -37,7 +37,7 @@
                     $sucesso .= 'Você será redirecionado em 5 segundos';
                     unset($_SESSION['logado_cliente']);
                     ?>
-                    <meta http-equiv="refresh" content="5;URL='http://projetofaculdade.epizy.com/'">
+                    <meta http-equiv="refresh" content="5;URL='http://http://localhost/ProjetoLocadora/'">
                     <?php
                 else:
                     throw new Exception('Ocorreu um erro ao tentar deletar sua conta, se o problema persistir entre em contato conosco');

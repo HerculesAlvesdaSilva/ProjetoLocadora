@@ -1,10 +1,10 @@
 <?php
 
 function conectarBanco() {
-    define("HOST", "sql110.epizy.com");
-    define("BD", "epiz_26027381_locadora");
-    define("USER", "epiz_26027381");
-    define("PASS", "DXNIoTL1uYYLuWG");
+    define("HOST", "localhost");
+    define("BD", "locadoraVirtual");
+    define("USER", "root");
+    define("PASS", "");
     
     try {
         $dsn = "mysql:host=".HOST.";dbname=".BD;

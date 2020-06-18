@@ -134,7 +134,7 @@ endif;
         <title></title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href='http://fonts.googleapis.com/css?family=Cuprum' rel='stylesheet' type='text/css' />
-        <link href="http://localhost/ProjetoLocadora/css/styleJanela.css" rel="stylesheet" type="text/css" />
+        <link href="http://projetofaculdade.epizy.com/css/styleJanela.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <div class="form_cadastrar">

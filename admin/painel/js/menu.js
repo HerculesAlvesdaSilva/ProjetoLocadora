@@ -5,7 +5,7 @@ $(document).ready(function(){
     var rd_visivel = $("#visivelMenu");
     
     slug.on('keyup',function(){            
-        link.val("http://localhost/ProjetoLocadora/"+$(this).val());
+        link.val("http://projetofaculdade.epizy.com/"+$(this).val());
     });
     
     $("#example #visivelMenu").on('click', rd_visivel, function(){
@@ -16,7 +16,7 @@ $(document).ready(function(){
             type: 'post',
             data: 'alterarStatus=ok&id='+id+'&valor='+valor,
             success: function(){
-                window.location.href='http://localhost/ProjetoLocadora/admin/painel/?p=menus';
+                window.location.href='http://projetofaculdade.epizy.com/admin/painel/?p=menus';
             }
         })
         

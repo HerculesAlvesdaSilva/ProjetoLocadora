@@ -123,28 +123,15 @@ function checkEdit($idCliente, $idComentario) {
 
 function resumeTexto($texto, $qtdePalavras) {
 
-    /*
-     * Ola, meu nome é Alexandre Cardoso, visitem o meu site.
-     */
-
+    
     $resumo = substr($texto, 0, $qtdePalavras);
 
-    /*
-     * Ola, meu nome é Alex
-     * 
-     */
 
     $corta_texto = strrpos($resumo, ' ');
-    /*
-     * Ola, meu nome é
-     * 
-     */
+   
     return substr($resumo, 0, $corta_texto) . "...";
 
-    /*
-     * Ola, meu nome é...
-     * 
-     */
+    
 }
 
 function recuperaDados($nome, $valor) {

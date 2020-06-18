@@ -25,9 +25,9 @@
                 locarFilmeCliente($dados);
             ?>
             <div class="mensagem">Você relocou o filme <?php echo $idFilme->filmes_nome; ?>, e será redirecionado para sua página em 5 segundos.</div><br />
-            <meta http-equiv="refresh" content="5;URL='http://localhost/ProjetoLocadora/minha_conta'">
+            <meta http-equiv="refresh" content="5;URL='http://projetofaculdade.epizy.com/minha_conta'">
             <?php
-        //header("Location: http://localhost/ProjetoLocadora/minha_conta");
+        //header("Location: http://projetofaculdade.epizy.com/minha_conta");
 
 
 

@@ -25,7 +25,7 @@ endif;
                 <h4>LOGAR</h4>
                 <p id="mensagem_logar"> Se você ja for cadastrado no site, digite seu login e sua senha para continuar a loação do filme.</p>
 
-                <form action="http://localhost/ProjetoLocadora/<?php echo basename($_SERVER['REQUEST_URI']); ?>" method="post">
+                <form action="http://projetofaculdade.epizy.com/<?php echo basename($_SERVER['REQUEST_URI']); ?>" method="post">
                     <label for="login">Login:</label>
                     <input type="text" name="login" class="text_login" />
 
@@ -42,7 +42,7 @@ endif;
                 <p id="mensagem_cadastrar">
                     Se você ainda não for cadastrado no site, clique no link abaixo, para se cadastrar e poder locar o filme.<br /><br />
                     Qualquer dúvida, entre em contato conosco através do e-mail: contato@asolucoesweb.com.br<br /><br />
-                    <a href="http://localhost/ProjetoLocadora/cadastrar">CADASTRAR</a>
+                    <a href="http://projetofaculdade.epizy.com/cadastrar">CADASTRAR</a>
                 </p>
             </div>
         </div>
@@ -51,11 +51,11 @@ endif;
         /* SE ESTIVER LOGADO REDIRECIONA PARA A PAGINA DOS FILMES LOCADOS */
         /*ob_start()
          *ob_end_flush()
-         * header('location: http://localhost/ProjetoLocadora/meus_filmes');
+         * header('location: http://projetofaculdade.epizy.com/meus_filmes');
          */
         echo (isset($sucesso)) ? '<div id="logado_cliente">' . $sucesso . '</div>' : '<div id="logado_cliente">Você esta logado e será redirecionado em 5 segundos !</div>';
         ?>
-        <meta http-equiv="refresh" content="5;URL='http://localhost/ProjetoLocadora/'">
+        <meta http-equiv="refresh" content="5;URL='http://projetofaculdade.epizy.com/'">
     <?php endif;?>
     <div class="fix"></div>
 </div>

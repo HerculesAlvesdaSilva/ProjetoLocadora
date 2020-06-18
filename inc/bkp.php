@@ -83,7 +83,7 @@ endif;
                                     ?>
                                     <!--LISTAGEM DOS FILMES DO MES -->
                                     <tr class="tabela_filmes_locados">
-                                        <td><img src="http://localhost/ProjetoLocadora/<?php echo $fm->current()->filmes_foto ?>" width="45" height="35" /></td>
+                                        <td><img src="http://projetofaculdade.epizy.com/<?php echo $fm->current()->filmes_foto ?>" width="45" height="35" /></td>
                                         <td><?php echo $fm->current()->filmes_nome; ?></td>
                                         <td align="center"><?php echo $fm->current()->locacoes_cliente_total; ?></td>
                                     </tr>
@@ -143,7 +143,7 @@ if (preg_match("/http:\/\//", $_POST['noticia'])):
     <h2>LANÇAMENTOS</h2>
     <div id="listar_lancamentos">
         <div class="liquid">
-            <span class="previous"><img src="http://localhost/ProjetoLocadora/imagens/previous.png" /></span>
+            <span class="previous"><img src="http://projetofaculdade.epizy.com/imagens/previous.png" /></span>
             <div class="wrapper">
                 <ul>
                     <?php
@@ -152,7 +152,7 @@ if (preg_match("/http:\/\//", $_POST['noticia'])):
                     while ($lan->valid()):
                         ?>
                         <li>
-                            <a href="http://localhost/ProjetoLocadora/detalhes/<?php echo $lan->current()->filmes_slug; ?>"><img src="http://localhost/ProjetoLocadora/<?php echo $lan->current()->filmes_foto; ?>" width="80" height="90" alt="<?php echo $lan->current()->filmes_slug; ?>"/></a>
+                            <a href="http://projetofaculdade.epizy.com/detalhes/<?php echo $lan->current()->filmes_slug; ?>"><img src="http://projetofaculdade.epizy.com/<?php echo $lan->current()->filmes_foto; ?>" width="80" height="90" alt="<?php echo $lan->current()->filmes_slug; ?>"/></a>
                             <br />
                             <span id="nome_filme"><?php echo $lan->current()->filmes_nome; ?></span>
                         </li>
@@ -163,7 +163,7 @@ if (preg_match("/http:\/\//", $_POST['noticia'])):
                     ?>
                 </ul>
             </div>
-            <span class="next"><img src="http://localhost/ProjetoLocadora/imagens/next.png" /></span>
+            <span class="next"><img src="http://projetofaculdade.epizy.com/imagens/next.png" /></span>
         </div>
     </div>
 </div><!-- lancamentos -->
@@ -214,10 +214,10 @@ if (preg_match("/http:\/\//", $_POST['noticia'])):
                         $totalLocacao += $filmes->filmes_preco;
                         ?>
                         <tr class="tabela_filmes_locados">
-                            <td><img src="http://localhost/ProjetoLocadora/<?php echo $filmes->filmes_foto ?>" width="45" height="35"/></td>
+                            <td><img src="http://projetofaculdade.epizy.com/<?php echo $filmes->filmes_foto ?>" width="45" height="35"/></td>
                             <td><?php echo $filmes->filmes_nome ?></td>
                             <td> R$ <?php echo number_format($filmes->filmes_preco, 2, ",", "."); ?></td>
-                            <td align="center"><img src="http://localhost/ProjetoLocadora/imagens/delete.png" /></td>
+                            <td align="center"><img src="http://projetofaculdade.epizy.com/imagens/delete.png" /></td>
                         </tr>
 
                         <?php
@@ -230,7 +230,7 @@ if (preg_match("/http:\/\//", $_POST['noticia'])):
             ?>
             <tr><td colspan="1" class="total_meus_filmes">Total: R$ <?php echo number_format($totalLocacao, 2, ",", "."); ?></td>
                 <td colspan="1" class="total_meus_filmes"><a href="">Locar Filmes</a></td>
-                <td colspan="2" class="total_meus_filmes"><a href="http://localhost/ProjetoLocadora">Continuar Locando</a></td>
+                <td colspan="2" class="total_meus_filmes"><a href="http://projetofaculdade.epizy.com">Continuar Locando</a></td>
             </tr>
         <tbody>
     </table>
@@ -260,10 +260,10 @@ carregarArquivos(array('selecionar'));
             $totalLocacao += $filmes->filmes_preco;
             ?>
             <tr class="tabela_filmes_locados">
-                <td><img src="http://localhost/ProjetoLocadora/<?php echo $filmes->filmes_foto ?>" width="45" height="35"/></td>
+                <td><img src="http://projetofaculdade.epizy.com/<?php echo $filmes->filmes_foto ?>" width="45" height="35"/></td>
                 <td><?php echo $filmes->filmes_nome ?></td>
                 <td> R$ <?php echo number_format($filmes->filmes_preco, 2, ",", "."); ?></td>
-                <td align="center"><img src="http://localhost/ProjetoLocadora/imagens/delete.png" /></td>
+                <td align="center"><img src="http://projetofaculdade.epizy.com/imagens/delete.png" /></td>
             </tr>
             <?php
             $f->next();
@@ -272,7 +272,7 @@ carregarArquivos(array('selecionar'));
         <tr>
             <td colspan="1" class="total_meus_filmes">Total: R$ <?php echo number_format($totalLocacao, 2, ",", "."); ?></td>
             <td colspan="1" class="total_meus_filmes"><a href="">Locar Filmes</a></td>
-            <td colspan="2" class="total_meus_filmes"><a href="http://localhost/ProjetoLocadora">Continuar Locando</a></td>
+            <td colspan="2" class="total_meus_filmes"><a href="http://projetofaculdade.epizy.com">Continuar Locando</a></td>
         </tr>
     <tbody>
 </table>
@@ -354,7 +354,7 @@ carregarArquivos(array('selecionar'));
                                     ?>
                                     <!--LISTAGEM DOS FILMES DO MES -->
                                     <tr class="tabela_filmes_locados">
-                                        <td><img src="http://localhost/ProjetoLocadora/<?php echo $fm->current()->filmes_foto ?>" width="45" height="35" /></td>
+                                        <td><img src="http://projetofaculdade.epizy.com/<?php echo $fm->current()->filmes_foto ?>" width="45" height="35" /></td>
                                         <td><?php echo $fm->current()->filmes_nome; ?></td>
                                         <td align="center"><?php echo $fm->current()->locacoes_cliente_total; ?></td>
                                     </tr>

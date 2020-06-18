@@ -5,7 +5,7 @@ $(document).ready(function(){
     var rd_visivel = $("#visivel");
     
     slug.on('keyup',function(){            
-        link.val("http://localhost/ProjetoLocadora/categoria/"+$(this).val());
+        link.val("http://projetofaculdade.epizy.com/categoria/"+$(this).val());
     });
     
     $("#example #visivel").on('click', rd_visivel, function(){
@@ -16,7 +16,7 @@ $(document).ready(function(){
             type: 'post',
             data: 'alterarStatus=ok&id='+id+'&valor='+valor,
             success: function(){
-                window.location.href='http://localhost/ProjetoLocadora/admin/painel/?p=categorias';
+                window.location.href='http://projetofaculdade.epizy.com/admin/painel/?p=categorias';
             }
         });      
     });

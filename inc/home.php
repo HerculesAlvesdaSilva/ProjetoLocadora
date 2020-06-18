@@ -6,7 +6,7 @@
         $b = new ArrayIterator($banners);
         while ($b->valid()):
             ?>
-            <li><img src="http://localhost/ProjetoLocadora/<?php echo $b->current()->banners_caminho; ?>" alt="<?php echo $b->current()->banners_slug; ?>" data-href="http://localhost/ProjetoLocadora/detalhes/filmes/<?php echo $b->current()->banners_slug; ?>"> </li></a>
+            <li><img src="http://projetofaculdade.epizy.com/<?php echo $b->current()->banners_caminho; ?>" alt="<?php echo $b->current()->banners_slug; ?>" data-href="http://projetofaculdade.epizy.com/detalhes/filmes/<?php echo $b->current()->banners_slug; ?>"> </li></a>
             <?php
             $b->next();
         endwhile;
@@ -19,7 +19,7 @@
     <h2>LANÇAMENTOS</h2>
     <div id="listar_lancamentos">
         <div class="liquid">
-            <span class="previous"><img src="http://localhost/ProjetoLocadora/imagens/previous.png" /></span>
+            <span class="previous"><img src="http://projetofaculdade.epizy.com/imagens/previous.png" /></span>
             <div class="wrapper">
                 <ul>
                     <?php
@@ -28,7 +28,7 @@
                     while ($lan->valid()):
                         ?>
                         <li>
-                            <a href="http://localhost/ProjetoLocadora/detalhes/filme/<?php echo $lan->current()->filmes_slug; ?>"><img src="http://localhost/ProjetoLocadora/<?php echo $lan->current()->filmes_foto; ?>" width="80" height="90" alt="<?php echo $lan->current()->filmes_slug; ?>"/></a>
+                            <a href="http://projetofaculdade.epizy.com/detalhes/filme/<?php echo $lan->current()->filmes_slug; ?>"><img src="http://projetofaculdade.epizy.com/<?php echo $lan->current()->filmes_foto; ?>" width="80" height="90" alt="<?php echo $lan->current()->filmes_slug; ?>"/></a>
                             <br />
                             <span id="nome_filme"><?php echo $lan->current()->filmes_nome; ?></span>
                         </li>
@@ -39,7 +39,7 @@
                     ?>
                 </ul>
             </div>
-            <span class="next"><img src="http://localhost/ProjetoLocadora/imagens/next.png" /></span>
+            <span class="next"><img src="http://projetofaculdade.epizy.com/imagens/next.png" /></span>
         </div>
     </div>
 </div><!-- lancamentos -->
@@ -47,7 +47,7 @@
 
 <div class="en">
     <div class="publicidade">
-        <img src="http://localhost/ProjetoLocadora/imagens/publicidade.png" />
+        <img src="http://projetofaculdade.epizy.com/imagens/publicidade.png" />
     </div><!-- enquete -->
 
     <div class="noticias">
@@ -60,13 +60,13 @@
                 ?>
                 <li>
                     <span class="data_noticia">Data da notícia - <?php echo date("d/m/Y", strtotime($n->current()->noticias_data)); ?></span><br />
-                    <a href="http://localhost/ProjetoLocadora/noticia/<?php echo $n->current()->noticias_slug; ?>"><?php echo resumeTexto(strip_tags(stripslashes($n->current()->noticias_texto)), 150); ?></a>
+                    <a href="http://projetofaculdade.epizy.com/noticia/<?php echo $n->current()->noticias_slug; ?>"><?php echo resumeTexto(strip_tags(stripslashes($n->current()->noticias_texto)), 150); ?></a>
                 </li>
                 <?php
                 $n->next();
             endwhile;
             ?>
-            <span class="vejamais"><a href="http://localhost/ProjetoLocadora/noticias">Veja todas as notícias...</a></span>
+            <span class="vejamais"><a href="http://projetofaculdade.epizy.com/noticias">Veja todas as notícias...</a></span>
         </ul>
     </div><!-- noticias -->
     <div class="fix"></div>
@@ -82,7 +82,7 @@
             while ($r->valid()):
                 ?>
                 <li>
-                    <a href="http://localhost/ProjetoLocadora/detalhes/filme/<?php echo $r->current()->filmes_slug; ?>"><img src="http://localhost/ProjetoLocadora/<?php echo $r->current()->filmes_foto; ?>" width="100" height="90" alt="<?php echo $r->current()->filmes_slug; ?>"/></a>
+                    <a href="http://projetofaculdade.epizy.com/detalhes/filme/<?php echo $r->current()->filmes_slug; ?>"><img src="http://projetofaculdade.epizy.com/<?php echo $r->current()->filmes_foto; ?>" width="100" height="90" alt="<?php echo $r->current()->filmes_slug; ?>"/></a>
                     <br />
                     <span id="nome_filme"><?php echo $r->current()->filmes_nome; ?></span>
                 </li>

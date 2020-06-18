@@ -22,7 +22,7 @@
             <div class="exibeNoticia">
                 <h2><?php echo $n->current()->noticias_titulo; ?> -  Data da notícia <?php echo date("d/m/Y", strtotime($n->current()->noticias_data)); ?></h2>
                 <p><?php echo stripslashes(strip_tags(resumeTexto($n->current()->noticias_texto, 500))); ?><br />
-                    <span class="leiaMais"> <a href="http://localhost/ProjetoLocadora/noticia/<?php echo $n->current()->noticias_slug; ?>">Leia mais...</a></span></p>
+                    <span class="leiaMais"> <a href="http://projetofaculdade.epizy.com/noticia/<?php echo $n->current()->noticias_slug; ?>">Leia mais...</a></span></p>
             </div>
             <?php
             $n->next();

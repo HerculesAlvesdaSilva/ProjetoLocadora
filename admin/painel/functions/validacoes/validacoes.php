@@ -38,6 +38,6 @@ function validarDados($valor, $nomeCampo, $tipo) {
 
 function verificaAutorizacao(){
     if(!isset($_SESSION['logado_admin'])):
-        header("Location: http://localhost/ProjetoLocadora/admin");
+        header("Location: http://projetofaculdade.epizy.com/admin");
     endif;
 }

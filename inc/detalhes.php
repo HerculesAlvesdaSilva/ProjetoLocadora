@@ -18,7 +18,7 @@
                 <h2><?php echo $filmes->filmes_nome; ?></h2>
                 <!--LISTAR O FILME ESCOLHIDO-->      
                 <div id="foto_detalhes_filme">
-                    <img src="http://localhost/ProjetoLocadora/<?php echo $filmes->filmes_foto_descricao; ?>" />
+                    <img src="http://projetofaculdade.epizy.com/<?php echo $filmes->filmes_foto_descricao; ?>" />
                     <div id="filme_detalhes"> 
                         <ul id="detalhes_lista_fime">
                             <li>Lançamento: <?php echo $filmes->filmes_lancamento; ?></li>
@@ -33,9 +33,9 @@
                         $locado = pegarPeloId('locados', 'locados_filme', $filmes->filmes_id);
                         if (!empty($locado)):
                             ?>
-                            <img src="http://localhost/ProjetoLocadora/imagens/indisponivel_detalhes.jpg" />
+                            <img src="http://projetofaculdade.epizy.com/imagens/indisponivel_detalhes.jpg" />
                         <?php else: ?>                      
-                            <a href="http://localhost/ProjetoLocadora/meus_filmes/filme/<?php echo $filmes->filmes_slug; ?>"><img src="http://localhost/ProjetoLocadora/imagens/locar_detalhes.jpg" /></a>
+                            <a href="http://projetofaculdade.epizy.com/meus_filmes/filme/<?php echo $filmes->filmes_slug; ?>"><img src="http://projetofaculdade.epizy.com/imagens/locar_detalhes.jpg" /></a>
                         <?php endif; ?>
                     </div>
 
@@ -69,7 +69,7 @@
 
                                 if (!empty($verificaLocado)):
                                     ?>
-                                    <div class="faixa_locado"><img src="http://localhost/ProjetoLocadora/imagens/faixa.png" /></div>
+                                    <div class="faixa_locado"><img src="http://projetofaculdade.epizy.com/imagens/faixa.png" /></div>
                                     <?php
                                 endif;
                                 /* VERIFICA SE FILME ESTA LOCADO E COLOCA UMA FAIXA EM CIMA DA FOTO DO FILME */
@@ -77,11 +77,11 @@
 
 
                                 <h3><?php echo $s->current()->filmes_nome; ?></h3>
-                                <div class="foto_filme_categoria"><img src="http://localhost/ProjetoLocadora/<?php echo $s->current()->filmes_foto; ?>" /></div>
+                                <div class="foto_filme_categoria"><img src="http://projetofaculdade.epizy.com/<?php echo $s->current()->filmes_foto; ?>" /></div>
                                 <div class="dados_filme">
                                     <?php echo "Código do filme " . $s->current()->filmes_codigo; ?><br />
                                     <?php echo "R$ " . number_format($s->current()->filmes_preco, 2, ",", "."); ?><br /><br />
-                                    <a href="http://localhost/ProjetoLocadora/detalhes/filme/<?php echo $s->current()->filmes_slug; ?>" class="bt_detalhes">Detalhes</a> | 
+                                    <a href="http://projetofaculdade.epizy.com/detalhes/filme/<?php echo $s->current()->filmes_slug; ?>" class="bt_detalhes">Detalhes</a> | 
                                     <?php
                                     if (!empty($verificaLocado)):
                                         ?>
@@ -96,7 +96,7 @@
                                             echo 'Filme já escolhido';
                                         else:
                                             ?>
-                                            <a href="http://localhost/ProjetoLocadora/<?php echo $link; ?>" class="locar_filme">Locar Filme</a>
+                                            <a href="http://projetofaculdade.epizy.com/<?php echo $link; ?>" class="locar_filme">Locar Filme</a>
                                         <?php
                                         endif;
                                     endif;
@@ -130,13 +130,13 @@
                                     <?php if (!empty($l->current()->clientes_foto)) { ?>
 
                                         <?php if (!is_file($l->current()->clientes_foto)): ?>
-                                            <img src="http://localhost/ProjetoLocadora/fotos/clientes/sem_foto.jpg" />
+                                            <img src="http://projetofaculdade.epizy.com/fotos/clientes/sem_foto.jpg" />
                                         <?php else: ?>
-                                            <img src="http://localhost/ProjetoLocadora/<?php echo $l->current()->clientes_foto; ?>" />
+                                            <img src="http://projetofaculdade.epizy.com/<?php echo $l->current()->clientes_foto; ?>" />
                                         <?php endif; ?>
 
                                     <?php }else { ?>
-                                        <img src="http://localhost/ProjetoLocadora/fotos/clientes/sem_foto.jpg" />
+                                        <img src="http://projetofaculdade.epizy.com/fotos/clientes/sem_foto.jpg" />
                                     <?php } ?>
                                 </div>
                                 <div class="comentarios_cliente">
@@ -152,7 +152,7 @@
                                             $idCliente = pegarPeloId('clientes', 'clientes_nome', $_SESSION['nome_cliente']);
                                             if ($l->current()->clientes_id == $idCliente->clientes_id):
                                                 ?>
-                                                <a href="#" id="edit" data-id="<?php echo $l->current()->comentarios_id; ?>"><img src="http://localhost/ProjetoLocadora/imagens/edit.png" /></a> | <a href="#" id="deletar_comentario" data-id="<?php echo $l->current()->comentarios_id; ?>"><img src="http://localhost/ProjetoLocadora/imagens/delete.png" /></a>                                                         
+                                                <a href="#" id="edit" data-id="<?php echo $l->current()->comentarios_id; ?>"><img src="http://projetofaculdade.epizy.com/imagens/edit.png" /></a> | <a href="#" id="deletar_comentario" data-id="<?php echo $l->current()->comentarios_id; ?>"><img src="http://projetofaculdade.epizy.com/imagens/delete.png" /></a>                                                         
 
                                                 <?php
                                             endif;
@@ -177,7 +177,7 @@
                     <!--FORMULARIO PARA COMENTARIOS-->
                     <div id="form_comentarios">
                         <?php if (isset($_SESSION['logado_cliente'])): ?>
-                            <form action="http://localhost/ProjetoLocadora/modulos/cadastrar/comentarios" method="post">
+                            <form action="http://projetofaculdade.epizy.com/modulos/cadastrar/comentarios" method="post">
                                 <label for="nome">Nome:</label>
                                 <input type="text" name="nome" value="<?php echo isset($_SESSION['nome_cliente']) ? $_SESSION['nome_cliente'] : '' ?>" class="input_text" />
 

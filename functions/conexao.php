@@ -1,9 +1,9 @@
 <?php
 
-define("HOST", "localhost");
-define("BD", "locadoraVirtual");
-define("USER", "root");
-define("PASS", "");
+define("HOST", "sql110.epizy.com");
+define("BD", "epiz_26027381_locadora");
+define("USER", "epiz_26027381");
+define("PASS", "DXNIoTL1uYYLuWG");
 
 function conectarBanco() {
     try {

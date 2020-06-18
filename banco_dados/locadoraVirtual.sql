@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 16-Jun-2020 às 13:32
+-- Tempo de geração: 18-Jun-2020 às 21:14
 -- Versão do servidor: 10.4.11-MariaDB
 -- versão do PHP: 7.4.3
 
@@ -89,18 +89,18 @@ CREATE TABLE `categorias` (
 --
 
 INSERT INTO `categorias` (`categorias_id`, `categorias_nome`, `categorias_slug`, `categorias_link`, `categorias_visivel`) VALUES
-(7, 'AÃ§Ã£o', 'acao', 'http://netfilmes.com.br/categoria/acao', 'habilitado'),
-(8, 'FicÃ§Ã£o', 'ficcao', 'http://netfilmes.com.br/categoria/ficcao', 'habilitado'),
-(9, 'Aventura', 'aventura', 'http://netfilmes.com.br/categoria/aventura', 'habilitado'),
-(10, 'Terror', 'terror', 'http://netfilmes.com.br/categoria/terror', 'habilitado'),
-(12, 'Drama', 'drama', 'http://netfilmes.com.br/categoria/drama', 'habilitado'),
-(13, 'ComÃ©dia', 'comedia', 'http://netfilmes.com.br/categoria/comedia', 'habilitado'),
-(14, 'Suspense', 'suspense', 'http://netfilmes.com.br/categoria/suspense', 'habilitado'),
-(15, 'Romance', 'romance', 'http://netfilmes.com.br/categoria/romance', 'habilitado'),
-(16, 'Policial', 'policial', 'http://netfilmes.com.br/categoria/policial', 'habilitado'),
-(17, 'Religioso', 'religioso', 'http://netfilmes.com.br/categoria/religioso', 'habilitado'),
-(18, 'Nacional', 'nacional', 'http://netfilmes.com.br/categoria/nacional', 'habilitado'),
-(19, 'Faroeste', 'faroeste', 'http://netfilmes.com.br/categoria/faroeste', 'habilitado');
+(7, 'Ação', 'acao', 'http://localhost/ProjetoLocadora/categoria/acao', 'habilitado'),
+(8, 'Ficcão', 'ficcao', 'http://localhost/ProjetoLocadora/categoria/ficcao', 'habilitado'),
+(9, 'Aventura', 'aventura', 'http://localhost/ProjetoLocadora/categoria/aventura', 'habilitado'),
+(10, 'Terror', 'terror', 'http://localhost/ProjetoLocadora/categoria/terror', 'habilitado'),
+(12, 'Drama', 'drama', 'http://localhost/ProjetoLocadora/categoria/drama', 'habilitado'),
+(13, 'ComÃ©dia', 'comedia', 'http://localhost/ProjetoLocadora/categoria/comedia', 'habilitado'),
+(14, 'Suspense', 'suspense', 'http://localhost/ProjetoLocadora/categoria/suspense', 'habilitado'),
+(15, 'Romance', 'romance', 'http://localhost/ProjetoLocadora/categoria/romance', 'habilitado'),
+(16, 'Policial', 'policial', 'http://localhost/ProjetoLocadora/categoria/policial', 'habilitado'),
+(17, 'Religioso', 'religioso', 'http://localhost/ProjetoLocadora/categoria/religioso', 'habilitado'),
+(18, 'Nacional', 'nacional', 'http://localhost/ProjetoLocadora/categoria/nacional', 'habilitado'),
+(19, 'Faroeste', 'faroeste', 'http://localhost/ProjetoLocadora/categoria/faroeste', 'habilitado');
 
 -- --------------------------------------------------------
 
@@ -128,7 +128,7 @@ CREATE TABLE `clientes` (
 --
 
 INSERT INTO `clientes` (`clientes_id`, `clientes_nome`, `clientes_email`, `clientes_cidade`, `clientes_telefone`, `clientes_celular`, `clientes_cpf`, `clientes_newsletter`, `clientes_foto`, `clientes_foto_detalhes`, `clientes_login`, `clientes_senha`) VALUES
-(20, 'Hercules Alves da Silva', 'juliocesar@gmail.com', 'Belem', '7633456714', '(56)9856-7325', '66366866548', 'sim', 'fotos/clientes/sem_foto.jpg', 'fotos/clientes/detalhes/sem_foto.jpg', 'alex', '202cb962ac59075b964b07152d234b70');
+(20, 'Hercules Alves da Silva', 'hercules.as09@gmail.com', 'Belem', '(76)3345-6714', '(56)9856-7325', '663668665-48', 'sim', 'fotos/clientes/sem_foto.jpg', 'fotos/clientes/detalhes/sem_foto.jpg', 'alex', '202cb962ac59075b964b07152d234b70');
 
 -- --------------------------------------------------------
 
@@ -241,31 +241,6 @@ CREATE TABLE `locacoes` (
 --
 
 INSERT INTO `locacoes` (`locacoes_id`, `locacoes_mes`, `locacoes_filme`, `locacoes_total`) VALUES
-(34, 8, 24, 4),
-(35, 8, 28, 3),
-(37, 8, 25, 4),
-(38, 8, 29, 1),
-(39, 8, 31, 2),
-(40, 8, 30, 4),
-(41, 8, 27, 1),
-(42, 8, 32, 1),
-(43, 8, 33, 1),
-(44, 8, 35, 1),
-(47, 9, 25, 14),
-(48, 9, 29, 7),
-(49, 9, 31, 9),
-(50, 9, 27, 8),
-(51, 9, 39, 4),
-(52, 9, 35, 5),
-(53, 9, 43, 1),
-(55, 9, 41, 1),
-(56, 9, 24, 4),
-(57, 9, 33, 3),
-(58, 9, 37, 2),
-(59, 9, 44, 3),
-(60, 9, 45, 6),
-(61, 9, 30, 3),
-(62, 9, 38, 3),
 (63, 9, 32, 3),
 (64, 9, 34, 10),
 (65, 9, 48, 3),
@@ -320,31 +295,6 @@ CREATE TABLE `locacoes_cliente` (
 --
 
 INSERT INTO `locacoes_cliente` (`locacoes_cliente_id`, `locacoes_cliente_nome`, `locacoes_cliente_filme`, `locacoes_cliente_mes`, `locacoes_cliente_total`) VALUES
-(1, 13, 24, 8, 4),
-(2, 13, 28, 8, 3),
-(7, 13, 30, 8, 4),
-(8, 13, 27, 8, 1),
-(9, 13, 32, 8, 1),
-(10, 13, 33, 8, 1),
-(11, 13, 35, 8, 1),
-(15, 13, 25, 9, 12),
-(16, 13, 29, 9, 6),
-(17, 13, 31, 9, 9),
-(18, 13, 27, 9, 8),
-(19, 13, 39, 9, 4),
-(20, 13, 35, 9, 5),
-(21, 13, 43, 9, 1),
-(23, 13, 41, 9, 1),
-(24, 13, 24, 9, 4),
-(25, 13, 33, 9, 3),
-(26, 13, 37, 9, 2),
-(27, 16, 44, 9, 1),
-(28, 16, 45, 9, 4),
-(29, 13, 30, 9, 3),
-(30, 13, 38, 9, 3),
-(40, 13, 46, 9, 2),
-(41, 13, 34, 9, 4),
-(42, 13, 36, 9, 4),
 (43, 13, 45, 9, 2),
 (46, 13, 28, 9, 1),
 (47, 13, 44, 9, 2),
@@ -390,32 +340,6 @@ CREATE TABLE `locados` (
   `locados_entrega` varchar(20) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
---
--- Extraindo dados da tabela `locados`
---
-
-INSERT INTO `locados` (`locados_id`, `locados_filme`, `locados_data`, `locados_devolucao`, `locados_cliente`, `locados_status`, `locados_valor`, `locados_entrega`) VALUES
-(99, 45, '2012-10-11 15:53:35', '2012-10-13 15:53:35', 16, 'Locado', '4.50', 'buscar'),
-(100, 25, '2012-10-11 17:45:56', '2012-10-13 17:45:56', 13, 'Locado', '30.00', 'buscar'),
-(101, 48, '2012-10-11 17:44:55', '2012-10-13 17:44:55', 13, 'Locado', '13.50', 'buscar'),
-(102, 29, '2012-10-11 15:56:28', '2012-10-13 15:56:28', 16, 'Locado', '4.50', 'buscar'),
-(103, 46, '2012-10-11 15:57:39', '2012-10-13 15:57:39', 16, 'Locado', '4.50', 'buscar'),
-(104, 44, '2012-10-11 15:58:31', '2012-10-13 15:58:31', 16, 'Locado', '4.50', 'buscar'),
-(105, 34, '2012-10-11 16:01:56', '2012-10-13 16:01:56', 13, 'Locado', '4.50', 'buscar'),
-(106, 31, '2012-10-11 16:01:56', '2012-10-13 16:01:56', 13, 'Locado', '4.50', 'buscar'),
-(107, 30, '2012-10-11 16:02:32', '2012-10-13 16:02:32', 16, 'Locado', '4.50', 'buscar'),
-(108, 47, '2012-10-11 16:26:15', '2012-10-13 16:26:15', 16, 'Locado', '27.00', 'buscar'),
-(109, 36, '2012-10-11 16:05:56', '2012-10-13 16:05:56', 16, 'Locado', '4.50', 'buscar'),
-(110, 39, '2012-10-11 16:07:17', '2012-10-13 16:07:17', 13, 'Locado', '4.50', 'buscar'),
-(111, 49, '2012-10-11 16:07:18', '2012-10-13 16:07:18', 13, 'Locado', '4.50', 'buscar'),
-(112, 40, '2012-10-11 16:30:31', '2012-10-13 16:30:31', 13, 'Locado', '13.50', 'buscar'),
-(113, 38, '2012-10-11 16:07:18', '2012-10-13 16:07:18', 13, 'Locado', '4.50', 'buscar'),
-(114, 28, '2012-10-11 16:13:43', '2012-10-13 16:13:43', 16, 'Locado', '4.50', 'buscar'),
-(115, 43, '2012-10-11 16:18:55', '2012-10-13 16:18:55', 13, 'Locado', '5.00', 'buscar'),
-(116, 33, '2012-10-11 16:18:56', '2012-10-13 16:18:56', 13, 'Locado', '3.50', 'buscar'),
-(117, 35, '2012-10-11 17:47:28', '2012-10-13 17:47:28', 13, 'Locado', '4.50', 'buscar'),
-(119, 27, '2012-10-11 17:53:51', '2012-10-13 17:53:51', 16, 'Locado', '5.00', 'buscar');
-
 -- --------------------------------------------------------
 
 --
@@ -435,12 +359,12 @@ CREATE TABLE `menus` (
 --
 
 INSERT INTO `menus` (`menus_id`, `menus_nome`, `menus_slug`, `menus_link`, `menus_visivel`) VALUES
-(1, 'LanÃ§amentos', 'lancamentos', 'http://netfilmes.com.br/lancamentos', 'habilitado'),
-(3, 'NotÃ­cias', 'noticias', 'http://netfilmes.com.br/noticias', 'habilitado'),
-(4, 'Contato', 'contato', 'http://netfilmes.com.br/contato', 'habilitado'),
-(5, 'Minha Conta', 'minha_conta', 'http://netfilmes.com.br/minha_conta', 'habilitado'),
-(6, 'Cadastro', 'cadastro', 'http://netfilmes.com.br/cadastro', 'habilitado'),
-(7, 'Meus Filmes', 'meus_filmes', 'http://netfilmes.com.br/meus_filmes', 'habilitado');
+(1, 'Lançamentos', 'lancamentos', 'http://localhost/ProjetoLocadora/lancamentos', 'habilitado'),
+(3, 'Notícias', 'noticias', 'http://localhost/ProjetoLocadora/noticias', 'habilitado'),
+(4, 'Contato', 'contato', 'http://localhost/ProjetoLocadora/contato', 'habilitado'),
+(5, 'Minha Conta', 'minha_conta', 'http://localhost/ProjetoLocadora/minha_conta', 'habilitado'),
+(6, 'Cadastro', 'cadastro', 'http://localhost/ProjetoLocadora/cadastro', 'habilitado'),
+(7, 'Meus Filmes', 'meus_filmes', 'http://localhost/ProjetoLocadora/meus_filmes', 'habilitado');
 
 -- --------------------------------------------------------
 
@@ -487,7 +411,7 @@ CREATE TABLE `newsletter` (
 --
 
 INSERT INTO `newsletter` (`newsletter_id`, `newsletter_email`) VALUES
-(5, 'contato@asolucoesweb.com.br');
+(5, 'lovadoravirtual2020@gmail.com');
 
 -- --------------------------------------------------------
 

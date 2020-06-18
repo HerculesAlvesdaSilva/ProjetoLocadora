@@ -29,7 +29,7 @@ $(document).ready(function(){
                 for(var i=page_index*items_per_page;i<max_elem;i++)
                 {   
                     newcontent2 += '<tr class="tabela_filmes_locados">';
-                    newcontent2 += '<td width="20%"><a href="http://http://localhost/ProjetoLocadora/detalhes/filme/'+data[i]['filmes_slug']+'"><img src="'+data[i]['filmes_foto']+'" width="45" height="35" /></a></td>';
+                    newcontent2 += '<td width="20%"><a href="http://localhost/ProjetoLocadora/detalhes/filme/'+data[i]['filmes_slug']+'"><img src="'+data[i]['filmes_foto']+'" width="45" height="35" /></a></td>';
                     newcontent2 += '<td class="state">' + data[i]['filmes_nome'] + '</td>';
                     newcontent2 += '<td class="state" align="center">' + data[i]['locacoes_cliente_total'] + '</td>';                
                     newcontent2 += '</tr>';

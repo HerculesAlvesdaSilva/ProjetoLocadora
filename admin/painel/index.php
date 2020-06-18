@@ -63,7 +63,7 @@ verificaAutorizacao();
             <!-- Left navigation -->
             <div class="leftNav">
                 <ul id="menu">
-                    <li class="dash"><a href="http://http://localhost/ProjetoLocadora/admin/painel/" title="" class="active"><span>Painel</span></a></li>
+                    <li class="dash"><a href="http://localhost/ProjetoLocadora/admin/painel/" title="" class="active"><span>Painel</span></a></li>
                     <li class="forms"><a href="?p=administradores" title=""><span>Administradores</span></a></li>
                     <li class="login"><a href="?p=clientes" title=""><span>Clientes</span></a></li>
                     <li class="typo"><a href="?p=filmes" title=""><span>Filmes</span></a></li>

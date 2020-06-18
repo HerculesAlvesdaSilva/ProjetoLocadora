@@ -15,7 +15,7 @@
                             ?>
                             <script type="text/javascript">
                                 setTimeout( function() {
-                                    location="http://http://localhost/ProjetoLocadora"
+                                    location="http://localhost/ProjetoLocadora"
                                 }, 5000 );                         
                             </script>
                             <?php
@@ -45,7 +45,7 @@
             ?>       
                <script type="text/javascript">
                        setTimeout( function() {
-                       location="http://http://localhost/ProjetoLocadora"
+                       location="http://localhost/ProjetoLocadora"
                    }, 5000 );                         
             </script>                        
             <?php

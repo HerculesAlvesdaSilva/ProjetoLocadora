@@ -30,7 +30,7 @@ function locarFilme($id) {
 
     if (empty($_SESSION['locar'][$id])):
         $_SESSION['locar'][$id] = 1;
-        header('location: http://http://localhost/ProjetoLocadora/meus_filmes');
+        header('location:http://localhost/ProjetoLocadora/meus_filmes');
     endif;
 
 }

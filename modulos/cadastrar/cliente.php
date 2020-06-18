@@ -116,7 +116,7 @@
 
     if (isset($erro)):
         echo '<div class="mensagem">' . $erro . "<br />";
-        echo '<a href="http://http://localhost/ProjetoLocadora/cadastro">Voltar</a>';
+        echo '<a href="http://localhost/ProjetoLocadora/cadastro">Voltar</a>';
         echo '</div>';
     else:
         echo '';
@@ -125,7 +125,7 @@
 
     if (isset($sucesso)):
         echo '<div class="mensagem">' . $sucesso . "<br />";
-        echo '<a href="http://http://localhost/ProjetoLocadora/cadastro">Voltar</a>';
+        echo '<a href="http://localhost/ProjetoLocadora/cadastro">Voltar</a>';
         echo '</div>';
     else:
         echo '';

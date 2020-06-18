@@ -7,7 +7,7 @@
         $c = new ArrayIterator($categoria);
         while ($c->valid()):
             ?>
-            <li><a href="http://http://localhost/ProjetoLocadora/categoria/<?php echo $c->current()->categorias_slug; ?>"><?php echo $c->current()->categorias_nome; ?></a></li>
+            <li><a href="http://localhost/ProjetoLocadora/categoria/<?php echo $c->current()->categorias_slug; ?>"><?php echo $c->current()->categorias_nome; ?></a></li>
             <?php
             $c->next();
         endwhile;
@@ -20,7 +20,7 @@
 <!-- pesquisa -->
 <div class="pesquisa">
     <h2>PESQUISAR</h2> 
-    <form action="http://http://localhost/ProjetoLocadora/pesquisa" method="post">
+    <form action="http://localhost/ProjetoLocadora/pesquisa" method="post">
         <input type="text" name="pesquisa" class="btpesquisa"/>
         <input type="submit" name="ok" id="button" value="OK" class="btok"/>
     </form>
@@ -44,7 +44,7 @@
                 <input type="submit" name="logar" value="Fazer login" class="button_sidebar" />
             </form>
         <?php else: ?>
-            <a href="http://http://localhost/ProjetoLocadora/?logout=ok">Sair</a><br />
+            <a href="http://localhost/ProjetoLocadora/?logout=ok">Sair</a><br />
             Bem Vindo <?php echo $_SESSION['nome_cliente']; ?>
         <?php endif; ?>
         <div class="fix"></div>
@@ -59,7 +59,7 @@
 <div class="newslleter">
     <h2>NEWSLLETER</h2>
     <div id="form_newsletter_sidebar">
-        <form action="http://http://localhost/ProjetoLocadora/modulos/cadastrar/newsletter" method="post">
+        <form action="http://localhost/ProjetoLocadora/modulos/cadastrar/newsletter" method="post">
             <label for="email">E-mail</label>
             <input type="text" name="email" class="text_newsletter"  />
 
@@ -81,7 +81,7 @@
         $o = new ArrayIterator($opinioes);
         while ($o->valid()):
             ?>
-            <p><a href="http://http://localhost/ProjetoLocadora/detalhes/filme/<?php echo $o->current()->filmes_slug; ?>"><?php echo resumeTexto($o->current()->comentarios_texto,55); ?></a> - <?php  echo $o->current()->filmes_nome; ?></p>
+            <p><a href="http://localhost/ProjetoLocadora/detalhes/filme/<?php echo $o->current()->filmes_slug; ?>"><?php echo resumeTexto($o->current()->comentarios_texto,55); ?></a> - <?php  echo $o->current()->filmes_nome; ?></p>
             <?php
             $o->next();
         endwhile;

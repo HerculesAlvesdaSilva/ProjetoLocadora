@@ -1,1 +1,1 @@
-<img src="http://http://localhost/ProjetoLocadora/imagens/bannercima.jpg" />
+<img src="http://localhost/ProjetoLocadora/imagens/bannercima.jpg" />

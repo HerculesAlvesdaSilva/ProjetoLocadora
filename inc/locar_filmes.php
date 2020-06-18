@@ -57,7 +57,7 @@
             unset($_SESSION['locar']);
         endif;
         ?>
-        <meta http-equiv="refresh" content="5;URL='http://http://localhost/ProjetoLocadora/minha_conta'">
+        <meta http-equiv="refresh" content="5;URL='http://localhost/ProjetoLocadora/minha_conta'">
         <?php
     else:
         echo '<div class="mensagem">' . $erro . '</div>';

@@ -18,7 +18,7 @@ endif;
 /* FAZER LOGOUT */
 if (isset($_GET['logout'])):
     if ($_GET['logout'] == 'ok'):
-        (logOut()) ? header('Location: http://http://localhost/ProjetoLocadora') : $erroLogin = 'Erro ao deslogar';
+        (logOut()) ? header('Location: http://localhost/ProjetoLocadora') : $erroLogin = 'Erro ao deslogar';
     endif;
 endif;
 /* FAZER LOGOUT */
@@ -29,20 +29,20 @@ endif;
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>Locadora</title>
-        <link rel="stylesheet" media="screen" type="text/css" href="http://http://localhost/ProjetoLocadora/css/style.css" />
-        <link rel="stylesheet" media="screen" type="text/css" href="http://http://localhost/ProjetoLocadora/css/estilo.css" />
-        <link rel="stylesheet" media="screen" type="text/css" href="http://http://localhost/ProjetoLocadora/css/gallery_view.css" />
+        <link rel="stylesheet" media="screen" type="text/css" href="http://localhost/ProjetoLocadora/css/style.css" />
+        <link rel="stylesheet" media="screen" type="text/css" href="http://localhost/ProjetoLocadora/css/estilo.css" />
+        <link rel="stylesheet" media="screen" type="text/css" href="http://localhost/ProjetoLocadora/css/gallery_view.css" />
         <link rel="stylesheet" media="screen" type="text/css" href="http://http://localhost/ProjetoLocadora/css/liquidcarousel.css" />
         <link rel="stylesheet" media="screen" type="text/css" href="http://http://localhost/ProjetoLocadora/css/qtip.css" />
         <link rel="stylesheet" media="screen" type="text/css" href="http://http://localhost/ProjetoLocadora/css/pagination_jquery.css" />
         <link href='http://fonts.googleapis.com/css?family=Cuprum' rel='stylesheet' type='text/css' />  
-        <script type="text/javascript" src="http://http://localhost/ProjetoLocadora.js"></script>
+        <script type="text/javascript" src="http://localhost/ProjetoLocadora.js"></script>
 
     </head>
     <body>                          
         <div id="topo">
             <div class="logo">
-                <a href="http://http://localhost/ProjetoLocadora"><img src="http://http://localhost/ProjetoLocadora/imagens/logo.png" width="215" height="70" alt="Logo" /></a>
+                <a href="http://http://localhost/ProjetoLocadora"><img src="http://localhost/ProjetoLocadora/imagens/logo.png" width="215" height="70" alt="Logo" /></a>
             </div><!-- logo -->
 
             <div class="menu">

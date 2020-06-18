@@ -10,7 +10,7 @@
             throw new Exception('Escolha um filme para deletar');
         else:
         unset($_SESSION['locar'][$dadosFilme->filmes_id]);
-        header('Location: http://http://localhost/ProjetoLocadora/meus_filmes');
+        header('Location:http://localhost/ProjetoLocadora/meus_filmes');
         endif;
     } catch (Exception $e) {
         $erro = $e->getMessage();

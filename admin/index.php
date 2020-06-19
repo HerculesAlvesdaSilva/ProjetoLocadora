@@ -33,15 +33,15 @@ endif;
     <body>
         <div id="login" class="box">
 
-            <div id="logo"><img src="imagens/" /></div>
+            <div id="logo"><img src="imagens/logo.png" /></div>
 
             <div id="form_login">
                 <form action="" method="post">
 
-                    <label for="login">Login:</label>
+                    <label for="login"></label>
                     <input type="text" name="login" placeholder="Login"/>
 
-                    <label for="senha">Senha:</label>
+                    <label for="senha"></label>
                     <input type="password" name="senha"   placeholder="Senha"/>
 
                     <label for="submit"></label>

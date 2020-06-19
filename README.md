@@ -10,10 +10,11 @@
 
 Foto da pasta banco_dados
 
-<h1 align="center">
-<img scr="https://ik.imagekit.io/5upll/Banco_dados_QITNOp1ys.png>
 
-</h1>
+
+<center><img src="https://ik.imagekit.io/5upll/Banco_dados_QITNOp1ys.png"></center>
+
+
 
 
  <p>Executar o index.php que irá abrir a tela de login.

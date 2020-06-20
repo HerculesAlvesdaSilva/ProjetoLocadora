@@ -1,36 +1,33 @@
-<h1>Projeto Locadora</h1>
+# Projeto Locadora
 
-<h3>Como instalar:</h3>
+# Como instalar:
 
- <p>
- Baixar o repositório do github ou clonar para o github para o desktop;
- </p>
- <p>Criar o banco de dados no phpmyadmin com o nome de locadoraVirtual e importar o arquivo que está dentro da pasta banco_dados do ProjetoLocadora.
- </p>
+## 1. Baixar do repositório do github ou clonar através de uma IDE para a sua máquina;
 
-Foto da pasta banco_dados
+## 2. Criar o banco de dados no phpmyadmin com o nome de locadoraVirtual e importar o arquivo que está dentro da pasta **banco_dados** do ProjetoLocadora.
 
+![Banco_dados](https://user-images.githubusercontent.com/66522811/85188089-d35c0980-b27a-11ea-8bd1-2a912d403c3b.png)
 
-
-<center><img src="https://ik.imagekit.io/5upll/Banco_dados_QITNOp1ys.png"></center>
+## 3. Executar o index.php que irá abrir a tela de login.
+Index. PHP
 
 
+![Tela de login do administrador](https://user-images.githubusercontent.com/66522811/85188261-b116bb80-b27b-11ea-9eec-fa859beb76e5.png)
+
+ 
+## 4. Inserir na tela de login o nome de usuário:hercules e a senha:123, para ter o acesso ao painel do administrador;
+Tela de login
+
+Painel
+![Painel do administrador](https://user-images.githubusercontent.com/66522811/85188291-ef13df80-b27b-11ea-9d63-02e70b377454.png)
 
 
- <p>Executar o index.php que irá abrir a tela de login.
+## 5. Executar o index.php da foto abaixo para executar a tela da locadora virtual de acesso ao cliente. Esta tela ainda está em desenvolvimento.
 
- foto da tela de login
 
- </p>
- <p>Inserir na tela de login o nome de usuário:hercules e a senha:123, para ter o acesso do painel do administrador;</p>
+ <img src="https://ik.imagekit.io/5upll/Tela_do_cliente_yarzwjyQgw.png">
 
- Foto do painel administrador
-
- <p>Executar o index.php da foto abaixo para executar a tela da locadora virtual de acesso ao cliente. Esta tela ainda está em desenvolvimento.</p>
-
- foto da tela da locadora que ainda está em desenvolvimento.
-
-<p>O site https://infinityfree.net foi utilizado para hospedar o ProjetoLocadora juntamente com o banco de dados na nuvem. A pagina do site é http://projetofaculdade.epizy.com/admin.</p>
+## 6. O site [Infinity Free](https://infinityfree.net) foi utilizado para hospedar o Projeto Locadora juntamente com o banco de dados na nuvem. A pagina do site é [Infinity Free](http://projetofaculdade.epizy.com/admin).
 
 
 

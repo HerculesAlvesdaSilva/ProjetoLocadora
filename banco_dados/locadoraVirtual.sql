@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 23-Jun-2020 às 14:51
+-- Tempo de geração: 23-Jun-2020 às 18:36
 -- Versão do servidor: 10.4.11-MariaDB
 -- versão do PHP: 7.4.3
 
@@ -206,13 +206,12 @@ INSERT INTO `filmes` (`filmes_id`, `filmes_categoria`, `filmes_nome`, `filmes_pr
 (42, 7, 'Sequestro no EspaÃ§o', '4.50', 'sequestro-no-espaco', 'sim', 'sim', 'fotos/site/504136f317755.jpg', 'fotos/descricao/504136f317755.jpg', '<p>Em troca de sua liberdade ele tem que resgatar a filha do presidente que est&aacute; em uma pris&atilde;o no espa&ccedil;o dominada por violentos detentos.</p>\r\n<div id=\\\"trailers\\\"><iframe src=\\\"http://www.youtube.com/embed/93Y6xyTG_Nw\\\" frameborder=\\\"0\\\" width=\\\"435\\\" height=\\\"245\\\"></iframe></div>', 52365478),
 (43, 8, 'Resident Evil RetribuiÃ§Ã£o', '5.00', 'resident-evil-retribuicao', 'sim', 'sim', 'fotos/site/504137af8f0c1.jpg', 'fotos/descricao/504137af8f0c1.jpg', '<p>No elenco est&atilde;o&nbsp;<strong>Milla Jovovich</strong>,&nbsp;<strong>Michelle Rodriguez</strong>,&nbsp;<strong>Sienna Guillory</strong>,&nbsp;<strong>Shawn Roberts</strong>,<strong> Li Bingbing</strong>,<strong> Johann Urb</strong>,&nbsp;<strong>Boris Kodjoe</strong>,<strong> Colin Salmon</strong>,<strong>Oded Fehr</strong> e&nbsp;<strong>Kevin Durand</strong>.&nbsp;Assim como os tr&ecirc;s &uacute;ltimos, que estrearam em setembro nos EUA, a Sony Pictures&nbsp;marcou&nbsp;a estreia de&nbsp;<em>Resident Evil: Retribui&ccedil;&atilde;o</em> para 14 de setembro.</p>\r\n<div id=\\\"trailers\\\"><iframe src=\\\"http://www.youtube.com/embed/fetL5JuKGv4\\\" frameborder=\\\"0\\\" width=\\\"435\\\" height=\\\"245\\\"></iframe></div>', 6533278),
 (44, 8, 'Caravana da Coragem', '4.50', 'caravana-coragem', 'sim', 'sim', 'fotos/site/5044193421b15.jpg', 'fotos/descricao/5044193421b15.jpg', '<p>Filme estrelado por aqueles bichinhos peludos conhecidos como Ewoks. Em Caravana da Coragem, a fam&iacute;lia Towani foi separada quando sua nave espacial cai em Endor. <br /><br />Os pais s&atilde;o logo capturados por um gigante conhecido como Gorax, e Mace e Cindel, o filho e a filha, est&atilde;o desaparecidos. Quando os Ewoks encontram as crian&ccedil;as Towani nos destro&ccedil;os da nave, logo fica claro que ser&aacute; necess&aacute;ria confian&ccedil;a m&uacute;tua para embarcar em uma aventura para resgatar os pais Towani.</p>', 533248),
-(45, 8, '2012', '4.50', '2012', 'sim', 'sim', 'fotos/site/5eec207f7bd57.jpg', 'fotos/descricao/5eec207f7bd57.jpg', '<p>Em 2008, o presidente americano (Danny Glover) convoca uma reuni&atilde;o de emerg&ecirc;ncia com as principais pot&ecirc;ncias para conversar sobre um grande perigo para a humanidade. Os anos passam e, com a proximidade de 2012, as autoridades decidem que n&atilde;o &eacute; mais poss&iacute;vel conter o perigo eminente que pode significar o fim do mundo. Com isso, colocam em pr&aacute;tica o plano iniciado anos atr&aacute;s, sob o comando dos cientistas Adrian Helmsley (Chiwetel Ejiofor) e Carl Anheuser (Oliver Platt).<br /><br /> Enquanto isso, o escritor Jackson Curtis (John Cusack) leva sua vida de marido separado, pai de dois filhos, como motorista de limusine e tendo que aturar as reclama&ccedil;&otilde;es da ex esposa (Amanda Peet). Ao levar os filhos para passear, ele descobre os primeiros sintomas da destrui&ccedil;&atilde;o do planeta.</p>', 698523),
+(45, 8, '2012', '4.50', '2012', 'sim', 'sim', 'fotos/site/5ef228201e9f3.jpg', 'fotos/descricao/5ef228201e9f3.jpg', '<p>Em 2008, o presidente americano (Danny Glover) convoca uma reuni&atilde;o de emerg&ecirc;ncia com as principais pot&ecirc;ncias para conversar sobre um grande perigo para a humanidade. Os anos passam e, com a proximidade de 2012, as autoridades decidem que n&atilde;o &eacute; mais poss&iacute;vel conter o perigo eminente que pode significar o fim do mundo. Com isso, colocam em pr&aacute;tica o plano iniciado anos atr&aacute;s, sob o comando dos cientistas Adrian Helmsley (Chiwetel Ejiofor) e Carl Anheuser (Oliver Platt).<br /><br /> Enquanto isso, o escritor Jackson Curtis (John Cusack) leva sua vida de marido separado, pai de dois filhos, como motorista de limusine e tendo que aturar as reclama&ccedil;&otilde;es da ex esposa (Amanda Peet). Ao levar os filhos para passear, ele descobre os primeiros sintomas da destrui&ccedil;&atilde;o do planeta.</p>', 698523),
 (46, 8, 'Avatar', '4.50', 'avatar', 'sim', 'sim', 'fotos/site/5044b9e8f2fdb.jpg', 'fotos/descricao/5044b9e8f2fdb.jpg', '<p><span><strong>AVATAR</strong> nos conduz por um mundo espetacular al&eacute;m da imagina&ccedil;&atilde;o, onde um her&oacute;i relutante vindo da Terra embarca numa aventura &eacute;pica, e acaba lutando para salvar o mundo extraterrestre que aprendeu a chamar de lar.<br /></span></p>\r\n<p><span>&nbsp;</span></p>\r\n<p><span>Adentramos o mundo alien&iacute;gena atrav&eacute;s dos olhos de Jake Sully, um ex-fuzileiro naval confinado a uma cadeira de rodas. Apesar do que aconteceu ao seu corpo, Jake continua se sentindo um guerreiro e viaja anos-luz &agrave; esta&ccedil;&atilde;o que os humanos instalaram em Pandora, onde a humanidade quer explorar o min&eacute;rio raro unobtanium, que pode ser a chave para solucionar a crise energ&eacute;tica da Terra. Como a atmosfera de Pandora &eacute; t&oacute;xica, foi criado o Programa Avatar, em que &ldquo;condutores&rdquo; humanos t&ecirc;m sua consci&ecirc;ncia ligada a um avatar, um corpo biol&oacute;gico controlado &agrave; dist&acirc;ncia capaz de sobreviver nesse ar letal. Os avatares s&atilde;o h&iacute;bridos geneticamente produzidos de DNA humano e DNA dos nativos de Pandora, os Na&rsquo;vi.<br /><br /></span></p>\r\n<p><span>Renascido em sua forma avatar, Jake consegue voltar a andar. Ele recebe a miss&atilde;o de se infiltrar entre os Na&rsquo;vi, que se tornaram um obst&aacute;culo &agrave; extra&ccedil;&atilde;o do precioso min&eacute;rio. Ocorre que uma bela Na&rsquo;vi, Neytiri, salva a vida de Jake, o que muda tudo. Jake &eacute; acolhido pelo cl&atilde; de Neytiri, e aprende a ser um deles depois de passar por v&aacute;rios testes e aventuras. O relacionamento de Jake com sua hesitante instrutora Neytiri se aprofunda, e ele passa a respeitar o jeito de viver dos Na&rsquo;vi, e por fim passa a ocupar seu lugar no meio deles.<br /><br /></span></p>\r\n<p><span>Logo ele enfrentar&aacute; a maior de suas prova&ccedil;&otilde;es, ao comandar um conflito &eacute;pico que decidir&aacute; nada menos que o destino de um mundo inteiro. </span></p>', 563214789),
 (47, 16, 'Fogo contra fogo', '4.50', 'fogo-contra-fogo', 'sim', 'sim', 'fotos/site/5044e0de20a3d.jpg', 'fotos/descricao/5044e0de20a3d.jpg', '<p>Descri&ccedil;&atilde;o do filme fogo contrra fogo</p>', 4896523),
-(48, 10, 'A possessÃ£o', '4.50', 'a-possessao', 'sim', 'sim', 'fotos/site/504570b07cc60.jpg', 'fotos/descricao/504570b07cc60.jpg', '<p>No filme <strong>The Possession</strong>,&nbsp; um jovem compra uma caixa antiga sem saber que dentro do objeto existe um antigo esp&iacute;rito malicioso. <br /><br />Os pais da menina se juntam para lutar contra a maldi&ccedil;&atilde;o que a domina.</p>\r\n<div id=\\\"trailers\\\"><iframe src=\\\"http://www.youtube.com/embed/0gBeG31fX40\\\" frameborder=\\\"0\\\" width=\\\"435\\\" height=\\\"245\\\"></iframe></div>', 63214589),
+(48, 10, 'A possessão', '4.50', 'a-possessao', 'sim', 'sim', 'fotos/site/504570b07cc60.jpg', 'fotos/descricao/504570b07cc60.jpg', '<p>No filme <strong>The Possession</strong>,&nbsp; um jovem compra uma caixa antiga sem saber que dentro do objeto existe um antigo esp&iacute;rito malicioso. <br /><br />Os pais da menina se juntam para lutar contra a maldi&ccedil;&atilde;o que a domina.</p>\r\n<div id=\"\\&quot;trailers\\&quot;\"><iframe src=\"\\&quot;http:/www.youtube.com/embed/0gBeG31fX40\\&quot;\" frameborder=\"\\&quot;0\\&quot;\" width=\"435\" height=\"245\"></iframe></div>', 63214589),
 (49, 19, 'Jovens Pistoleiros', '4.50', 'jovens-pistoleiros', 'sim', 'sim', 'fotos/site/5045790898207.jpg', 'fotos/descricao/5045790898207.jpg', '<p>Descricao do flme jovens pistoleiros</p>', 45523698),
-(50, 10, 'Sexta_feira 13', '4.00', 'sexta-feira', 'sim', 'sim', 'fotos/site/5eec3d1886c46.jpg', 'fotos/descricao/5eec3d1886c46.jpg', '<p>Ol&aacute;!!</p>', 24567),
-(51, 7, 'Dança', '5.00', 'ok', 'sim', 'sim', 'fotos/site/5eeca8adea76b.jpg', 'fotos/descricao/5eeca8adea76b.jpg', '<p>dfgdfgdfgdfgdfg</p>', 254);
+(50, 10, 'Sexta_feira 13', '4.00', 'sexta-feira', 'sim', 'sim', 'fotos/site/5eec3d1886c46.jpg', 'fotos/descricao/5eec3d1886c46.jpg', '<p>Ol&aacute;!!</p>', 24567);
 
 -- --------------------------------------------------------
 
@@ -252,14 +251,6 @@ CREATE TABLE `locacoes_cliente` (
   `locacoes_cliente_mes` int(11) DEFAULT NULL,
   `locacoes_cliente_total` int(15) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Extraindo dados da tabela `locacoes_cliente`
---
-
-INSERT INTO `locacoes_cliente` (`locacoes_cliente_id`, `locacoes_cliente_nome`, `locacoes_cliente_filme`, `locacoes_cliente_mes`, `locacoes_cliente_total`) VALUES
-(75, 13, 24, 10, 1),
-(76, 16, 27, 10, 1);
 
 -- --------------------------------------------------------
 
@@ -518,7 +509,7 @@ ALTER TABLE `contato`
 -- AUTO_INCREMENT de tabela `filmes`
 --
 ALTER TABLE `filmes`
-  MODIFY `filmes_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=52;
+  MODIFY `filmes_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=54;
 
 --
 -- AUTO_INCREMENT de tabela `fotos`

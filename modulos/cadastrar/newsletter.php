@@ -20,7 +20,7 @@
                             </script>
                             <?php
                         else:
-                            $erro = 'Erro ao cadastrar e-mail, tente novamente, se o erro persistir, entre em contato conosco pelo e-mail contato@asolucoesweb.com.br';
+                            $erro = 'Erro ao cadastrar e-mail, tente novamente, se o erro persistir, entre em contato conosco pelo e-mail locadoravirtual2020@gmail.com';
                         endif;
                     else:
                         $erro = 'Esse e-mail ja está cadastrado !';

@@ -12,7 +12,7 @@ function alterarCliente(Array $dados, $id) {
                                                                     clientes_cpf = :cpf,
                                                                     clientes_newsletter = :newsletter,
                                                                     clientes_foto = :foto,
-                                                                    clientes_foto_detalhes = :fotosDetalhes,
+                                                                    clientes_foto_detalhes = :fotoDetalhes,
                                                                     clientes_login = :login,
                                                                     clientes_senha = :senha
                                          WHERE clientes_id = :id");

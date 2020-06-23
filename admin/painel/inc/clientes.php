@@ -36,7 +36,7 @@
                     <?php
                     /* VERIFICAR SE TEM FILME LOCADOS PARA O CLIENTE */
                     $dados = pegarPeloId("locados", "locados_cliente", $a->current()->clientes_id);
-                    if (count($dados) <= 0):
+                    if (count($dados) <=0):
                         ?>
                         <td class="center"><a href="#" onclick="deletar(<?php echo $a->current()->clientes_id; ?>,'cliente')"><img src="imagens/delete.png" /></a></td>
                    <?php endif; ?>

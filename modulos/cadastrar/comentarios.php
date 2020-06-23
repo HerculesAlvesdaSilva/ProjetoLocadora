@@ -21,7 +21,7 @@
                         <a href="http://localhost/ProjetoLocadora/detalhes/filme/<?php echo $filme->filmes_slug; ?>">Voltar</a>
                         <?php
                     else:
-                        $erro = 'Erro ao fazer comentário, tente novamente, se o erro persistir, entre em contato conosco pelo e-mail contato@asolucoesweb.com.br';
+                        $erro = 'Erro ao fazer comentário, tente novamente, se o erro persistir, entre em contato conosco pelo e-mail locadoravirtual2020@gmail.com';
                     endif;
                 else:
                     $erro = $mensagem;

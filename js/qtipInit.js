@@ -1,7 +1,7 @@
 $(document).ready(function()
 {
 	// Make sure to only match links to wikipedia with a rel tag
-	$('a[href*="netfilmes.com.br/"][rel]').each(function()
+	$('a[href*="localhost/ProjetoLocadora/"][rel]').each(function()
 	{
 		// We make use of the .each() loop to gain access to each element via the "this" keyword...
 		$(this).qtip(
@@ -13,7 +13,7 @@ $(document).ready(function()
 					url: $(this).attr('rel') // Use the rel attribute of each element for the url to load
 				},
 				title: {
-					text: 'Netfilmes - ' + $(this).text(), // Give the tooltip a title using each elements text
+					text: 'ProjetoLocadora - ' + $(this).text(), // Give the tooltip a title using each elements text
 					button: true
 				}
 			},

@@ -36,7 +36,7 @@ endif;
         <link rel="stylesheet" media="screen" type="text/css" href="http://localhost/ProjetoLocadora/css/qtip.css" />
         <link rel="stylesheet" media="screen" type="text/css" href="http://localhost/ProjetoLocadora/css/pagination_jquery.css" />
         <link href='http://fonts.googleapis.com/css?family=Cuprum' rel='stylesheet' type='text/css' />  
-        <script type="text/javascript" src="http://localhost/ProjetoLocadora.js"></script>
+        <script type="text/javascript" src="http://localhost/ProjetoLocadora/js"></script>
 
     </head>
     <body>                          

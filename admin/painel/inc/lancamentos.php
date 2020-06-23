@@ -12,7 +12,7 @@
         </thead>
         <tbody>
             <tr class="gradeX">
-                <td>Alexandre Cardoso</td>
+                <td>Hércules Alves</td>
                 <td class="center">editar</td>
                 <td class="center">deletar</td>
             </tr>

@@ -7,8 +7,8 @@ if (isset($_POST['enviar_email'])):
     $dados = pegarPeloId("clientes", "clientes_id", $_GET['id']);
     $email = $dados->clientes_email;
     $dadosEmail = array(
-        "from" => "contato@asolucoesweb.com.br",
-        "nome" => "Alexandre Eduardo Cardoso",
+        "from" => "locadoravirtual2020@gmail.com",
+        "nome" => "Hercules Alves da Silva",
         "email" => $email,
         "assunto" => "Devolve o filme",
         "mensagem" => $_POST['email']

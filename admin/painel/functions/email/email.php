@@ -10,14 +10,14 @@ function enviarEmail($dadosEmail) {
         $mail->Host = "smtp.gmail.com";
         $mail->Port = 465;
         $mail->SMTPAuth = true;
-        $mail->Username = "alecar2007@gmail.com";
+        $mail->Username = "locadoravirtual2020@gmail.com";
         $mail->Password = "";
         $mail->IsHTML(true);
         $mail->SetFrom($dadosEmail['from']);
         $mail->From = $dadosEmail['from'];
         $mail->FromName = $dadosEmail['nome'];
         $mail->AddAddress($dadosEmail['email']);
-        //$mail->AddAddress('xandecar@hotmail.com');
+        //$mail->AddAddress('locadoravirtual2020@gmail.com');
         $mail->Subject = $dadosEmail['assunto'];
         $mail->Body = $dadosEmail['mensagem'];
         //$mail->MsgHTML();
